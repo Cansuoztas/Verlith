@@ -9,7 +9,7 @@ var swiper = new Swiper(".mySwiper", {
     coverflowEffect: {
       rotate: -0.1,
       stretch: -15,
-      depth: 80,
+      depth: 50,
       modifier: 1.68,
       slideShadows: false,
       
@@ -35,7 +35,7 @@ var swiper = new Swiper(".mySwiper", {
     coverflowEffect: {
       rotate: 10,
       stretch: 5,
-      depth: 80,
+      depth: 100,
       modifier: 1,
       slideShadows: false,
     },

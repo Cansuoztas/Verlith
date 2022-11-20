@@ -21,6 +21,7 @@ ul{
 	list-style: none;
 }
 .footer{
+	margin-top: 0 !important;
 	background-color: #001220;
     padding: 20px 0;
 }
