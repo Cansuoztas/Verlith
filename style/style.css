@@ -24,16 +24,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-
-  
+  height: auto;
   background-image: url(../image/testone.svg);
-  background-repeat: repeat;
-  background-position: center;
+  /* background-repeat: repeat; */
+  /* background-position: center; */
   background-size: cover;
 }
 
-/* ----------- SLIDER ------------ */
 .swiper{
   width: 100%;
 }
@@ -53,14 +50,10 @@ body{
   padding: 2em 1em;
   background-color: #ff00dd28;
   box-shadow: 0 0 .5em #ea00ff;
-  
-
   display: flex;
   align-items: center;
   flex-direction: column;
-
   margin: 0 2em;
-
   position: relative;
   border-radius:15px;
   margin:30px;
