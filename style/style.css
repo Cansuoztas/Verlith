@@ -1,18 +1,17 @@
 /* ------------ GOOGLE FONTS ------------ */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/* ------------ VARIABLES ------------ */
 :root{
   /* FONT */
   --font: 'Montserrat';
 
 
-  /* COLORS */
+
   --color: #001220;
   --bg-color: #FCAF3C;
 }
 
-/* ------------ BASE ------------ */
+
 *{
   margin: 0;
   padding: 0;
