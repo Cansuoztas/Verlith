@@ -10,11 +10,11 @@
     display: block;
 }
 .background{
-    height: 100vh;
-    background-repeat: no-repeat;
+    /* height: 100vh; */
+    /* background-repeat: no-repeat; */
     width: 100%;
-    background-size: cover;
-    background-position: center center;
+    /* background-size: cover; */
+    /* background-position: center center; */
 }
 .header{
 
@@ -69,14 +69,7 @@
     
     
 }
-/* .navigation b a li{
-    background-color: #EC9355;
-    vertical-align: middle;
-    padding: 20px;
-    margin: 20px;
-    color: black;
 
-} */
 .navigation a:hover{
     background-color: #EC9355;
     height: 95%;
@@ -150,10 +143,10 @@
     
 }
 .secondheader{
-    background-image: url(../image/testone.svg);
-    background-repeat: repeat-x; 
-  background-position: center; 
-    background-size: cover;
+    background-image: url(../image/jesus.svg);
+    background-repeat: repeat ;
+  /* background-position: center ;  */
+    /* background-size: cover;  */
 
 }
 
@@ -197,8 +190,7 @@
 }
 .startapp .btn:hover a{    
     letter-spacing: 3px;
-    color: #001220;
-}
+    }
 .startapp .btn a::before{
      content: '';
      position: absolute;

@@ -24,10 +24,7 @@ body{
   display: flex; 
   justify-content: center;
   align-items: center;
-  /* background-image: url(../image/testone.svg);
-  background-repeat: repeat; 
-background-position: center; 
-  background-size: cover; */
+
 }
 .swiper{
   width: 100%;
@@ -46,19 +43,15 @@ background-position: center;
   height: 90%;
   border-radius: 1em;
   padding: 2em 1em;
-  background-color: #ff00dd28;
+  background-color: #ff00dd18;
   box-shadow: 0 0 .5em #ea00ff;
-  
-
   display: flex;
   align-items: center;
   flex-direction: column;
-
   margin: 0 2em;
-
   position: relative;
   border-radius:15px;
-  margin:30px;
+  margin:50px;
   justify-content: center;
   border-top:1px solid rgba(255,255,255,0.5);
   border-left:1px solid rgba(255,255,255,0.5);
@@ -98,7 +91,7 @@ background-position: center;
   height: 10em;
   border-radius: 50%;
   border: 3px solid ;  
-  border-top:1px solid rgba(255,255,255,0.5);
+  border-top:1px solid rgba(255, 255, 255, 0.329);
   border-left:1px solid rgba(255,255,255,0.5);
   border-bottom:1px solid #ea00ff;
   border-right:1px solid rgba(255,255,255,0.5);
@@ -113,7 +106,7 @@ background-position: center;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.664);
 }
 
 
