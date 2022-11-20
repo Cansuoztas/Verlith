@@ -70,10 +70,18 @@
     
     
 }
+.navigation b a li{
+    background-color: #EC9355;
+    vertical-align: middle;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+
+}
 
 .navigation a:hover{
     background-color: #EC9355;
-    transform: scale(1.1);
+    transform: scale(0.97);
     font-weight: 900;
     transition-duration: 200ms;
     cursor: pointer;
@@ -102,9 +110,6 @@
 }   
 @media (max-width:760px){
     .navigation a{
-        display: none;
-    }
-    .startapp .btn{
         display: none;
     }
     .hamburger.menu{
@@ -218,18 +223,13 @@
     bottom: -5px;
     width: 30px;
     height: 10px;
-    background: #ff0505;
+
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
 }
-.startapp .btn:hover::before{
-    bottom: 0;
-    height: 50%;
-    width: 80%;
-    border-radius: 30px;
-    transition-delay: 0.5s;
-}
+
+
 .startapp .btn::after{
     content: '';
     position: absolute;
@@ -238,7 +238,7 @@
     top: -5px;
     width: 30px;
     height: 10px;
-    background: #ff1d19;
+    
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
@@ -250,12 +250,7 @@
     border-radius: 30px;
     transition-delay: 0.5s;
 }
-.startapp .btn:nth-child(1)::before,
-.startapp .btn:nth-child(1)::after{
-    background: #ff171f;
-    box-shadow: 0 0 5px #ff171f,0 0 15px #ff171f,0 0 30px #ff171f,
-    0 0 60px #ff171f;
-}
+
 .connect .btn:nth-child(1)::before,
 .connect .btn:nth-child(1)::after{
     background: #2bd2ff;
@@ -332,8 +327,7 @@
     bottom: -5px;
     width: 30px;
     height: 10px;
-    background: #f00;
-    border-radius: 10px;
+     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
 }
@@ -352,7 +346,7 @@
     top: -5px;
     width: 30px;
     height: 10px;
-    background: #f00;
+ 
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
